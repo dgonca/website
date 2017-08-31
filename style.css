@@ -1,13 +1,52 @@
 body {
   font-family: 'Abril Fatface', cursive;
+  width: 100%;
 }
+
+
 
 .splash-header{
   background: transparent;
-  width: 200px;
+  width: 250px;
   display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.splash-header h1{
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.splash-buttons{
+  background: transparent;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 80px);
+  /*width: 300px;*/
+}
+
+.splash-buttons button{
+  font-size: 1em;
+  font-family: 'Abril Fatface', cursive;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.splash-buttons a{
+  text-decoration: none;
+  color: black;
+}
+
+.splash-buttons button:active{
+  background-color: #95CCDE;
+}
+
+
