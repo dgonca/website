@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Abril Fatface', cursive;
+  width: 100%;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+a:hover{
+  color: #7BAABA;
+}
+
+footer{
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #DEDEDE;
+  padding: 15px 0;
+}
+
+.header{
+  display: inline-block;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.header h1{
+  display: inline-block;
+}
+
+.header small {
+  display: inline-block;
+  font-size: 1.5em;
+  color: darkgray;
+  padding-left: 10px;
+}
+
+.nav{
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.nav ul{
+  list-style-type: none;
+}
+
+.nav ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
