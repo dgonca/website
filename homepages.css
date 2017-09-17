@@ -3,34 +3,39 @@
   padding: 0;
 }
 
+/*font-family: 'Bungee Outline', cursive;
+font-family: 'Lato', sans-serif;*/
+
 body{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Lato', sans-serif;
   width: 100%;
 }
 
 a {
  text-decoration: none;
- color: black;
+ color: white;
 }
 
 a:hover{
   color: #7BAABA;
 }
 
-footer{
+.info-bar{
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  bottom: 0px;
+  toop: 0px;
   left: 0px;
-  background-color: #DEDEDE;
+  background-color: black;
   padding: 15px 0;
 }
 
 .header{
+  font-family: 'Bungee Outline', cursive;
   display: inline-block;
   width: 50%;
   padding-left: 30px;
+  color: white;
 }
 
 .header h1{
@@ -40,7 +45,7 @@ footer{
 .header small {
   display: inline-block;
   font-size: 1.5em;
-  color: darkgray;
+  color: #7BAABA;
   padding-left: 10px;
 }
 
@@ -58,5 +63,3 @@ footer{
   display: inline-block;
   padding: 0 10px;
 }
-
-

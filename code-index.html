@@ -1,23 +1,28 @@
 <html>
 <head>
   <title>Dominique Goncalves - Code</title>
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="code-homepage.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="homepages.css">
+  <script src="dist/js/smooth-scroll.js"></script>
 </head>
 <body>
 
-  <footer>
+  <div class="info-bar">
     <div class="header">
       <h1>Dominique Goncalves</h1> <small>Developer</small>
     </div>
     <div class="nav">
       <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Photography</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+        <li><a href="photo-index.html">Photography</a></li>
       </ul>
     </div>
-  </footer>
+  </div>
 
+
+  <script>
+  	var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
 </html>
