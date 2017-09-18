@@ -7,7 +7,7 @@
 font-family: 'Lato', sans-serif;*/
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@ a:hover{
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  toop: 0px;
+  top: 0px;
   left: 0px;
   background-color: black;
   padding: 15px 0;
@@ -45,7 +45,8 @@ a:hover{
 .header small {
   display: inline-block;
   font-size: 1.5em;
-  color: #7BAABA;
+  color: white;
+  font-weight: bold;
   padding-left: 10px;
 }
 
