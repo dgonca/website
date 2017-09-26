@@ -14,7 +14,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(137, 172, 177);
-  padding: 20px;
+  padding: 30px;
   height: 100px;
   color: white;
 }
@@ -109,10 +109,59 @@
   left: 0;
 }
 
+#about .headshot img {
+  width: 100%;
+  height: auto;
+}
+
+#about .headshot {
+  width: 20%;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  border: 2px solid black;
+}
+
+#about .about-text {
+  width: 40%;
+  position: absolute;
+  top: 45%;
+  left: 41%;
+  border: 2px solid black;
+  padding: 10px 5px;
+  vertical-align: bottom;
+}
+
 #contact{
   width: 100%;
   height: 100%;
   position: absolute;
   top: 500%;
   left: 0;
+}
+
+.contact-links {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.contact-links li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.contact-links li a {
+  color: black;
+}
+
+.contact-links li a:hover {
+  color: rgb(137, 172, 177);
 }
