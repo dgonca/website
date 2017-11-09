@@ -9,6 +9,9 @@ font-family: 'Lato', sans-serif;*/
 body{
   font-family: Helvetica;
   width: 100%;
+  /*background-color: #102987;*/
+  background-color: #0a6577;
+  color: white;
 }
 
 a {
@@ -28,7 +31,7 @@ a:hover{
   left: 0px;
   background-color: black;
   padding: 15px 0;
-  z-index: 9999;
+  z-index: 1000000;
 }
 
 .header{

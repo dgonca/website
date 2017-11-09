@@ -1,6 +1,7 @@
 body {
   /*font-family: 'Lato', sans-serif;*/
   width: 100%;
+  background-color: black;
 }
 
 /*font-family: 'Bungee Outline', cursive;
@@ -19,10 +20,12 @@ font-family: 'Lato', sans-serif;*/
 .splash-header h1{
   font-family: 'Bungee Outline', serif;
   font-size: 3em;
-  border: 2px solid black;
-  background-color: white;
+  color: white;
+  /*border: 2px solid black;
+  background-color: white;*/
   padding: 10px;
   text-align: center;
+
 }
 
 
@@ -43,19 +46,31 @@ font-family: 'Lato', sans-serif;*/
   color: black;
   font-family: 'Bungee Outline', serif;
   font-weight: bold;
-  border: 2px solid black;
-  background-color: white;
+  border: none;
+  box-shadow: none;
+  color: white;
+  background-color: transparent;
+  /*border: 2px solid black;
+  background-color: white;*/
 }
 
 .splash-buttons a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
+
+/*@keyframes button-hover {
+
+}*/
 
 .splash-buttons button a:hover{
-  color: black;
+  /*color: black;*/
+  /*font-weight: bolder;*/
+  border: 6px double white;
+  padding: 10px;
+
 }
 
-.splash-buttons button:active{
+/*.splash-buttons button:active{
   background-color: #95CCDE;
-}
+}*/

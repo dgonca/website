@@ -42,6 +42,53 @@
   border: none;
 }
 
+@keyframes bounce {
+  0% { bottom: 10px; }
+  50% { bottom:  25px;}
+  100% { bottom: 10px; }
+}
+
+.down-arrow  {
+  width: 40px;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 10px;
+
+}
+
+/*#first .down-arrow {
+  bottom: 10px;
+}
+
+.next-arrow {
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#skills .next-arrow {
+  bottom: 10px;
+}
+
+#projects .next-arrow {
+  bottom: -150%;
+}
+
+#experience .next-arrow {
+  bottom: -250%;
+}*/
+
+
+
+
+
+
 #skills {
   width: 100%;
   height: 100%;
@@ -57,6 +104,8 @@
   top: 200%;
   left: 0;
 }
+
+
 
 #experience {
   width: 100%;
@@ -140,6 +189,14 @@
   left: 0;
 }
 
+#final {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 600%;
+  left: 0;
+}
+
 .contact-links {
   position: absolute;
   top: 60%;
@@ -164,4 +221,79 @@
 
 .contact-links li a:hover {
   color: rgb(137, 172, 177);
+}
+
+.stack-logos {
+  width: 60%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 10px 5px 10px 25px;
+
+}
+
+.stack-logos img {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.final-jumbotron {
+  font-size: 60px;
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  width: 80%;
+  background: rgb(137, 172, 177);
+  padding: 20px;
+
+}
+
+.final-jumbotron h1{
+  text-transform: capitalize;
+}
+
+.final-jumbotron small {
+  font-weight: bold;
+  float: right;
+}
+
+.projects-list {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.projects-list h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.projects-list h2, .projects-list h6 {
+  text-align: center;
+}
+
+#projects .project-item {
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+
+#projects .project-item h6, #projects .project-item p{
+  padding: 2px 0;
+}
+
+#front-name:hover {
+  color: white;
+  border: 4px double #0a6577;
+  padding: 2px;
+  /*margin: 2px;*/
 }

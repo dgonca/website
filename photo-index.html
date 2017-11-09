@@ -3,7 +3,9 @@
   <title>Dominique Goncalves - Photography</title>
   <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Lato" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="homepages.css">
-  <script src="dist/js/smooth-scroll.js"></script>
+  <link rel="stylesheet" href="code.css">
+  <script src="
+https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.js"></script>
 </head>
 <body>
 
@@ -13,18 +15,114 @@
     </div>
     <div class="nav">
       <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#first">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="code-index.html">Code</a></li>
       </ul>
     </div>
   </div>
 
-  <div class="first">
-    <h1>Hi. I'm Dominique, a photographer based in Chicago. </h1>
-    <button type="button" name="button">Work</button>
-    <button type="button" name="button">Skills</button>
-    <button type="button" name="button">Experience</button>
+
+  <div id="first">
+    <div class="jumbotron">
+
+      <h1>Hi. I'm Dominique, a photographer based in Chicago. </h1>
+      <button type="button" name="button"><a href="#projects">Work</a></button>
+      <button type="button" name="button"><a href="#skills">Skills</a></button>
+      <button type="button" name="button"><a href="#experience">Experience</a></button>
+    </div>
+
+    <a href="#projects"><img src="imgs/down.png" alt="" class="down-arrow"></a>
+  </div>
+
+  <div id="projects" class="pages">
+    <div class="heading">
+      <h1>Projects</h1>
+    </div>
+    <div class="projects-list">
+      <h1>Projects coming soon</h1>
+    </div>
+      <a href="#skills"><img src="imgs/down.png" alt="" class="down-arrow"></a>
+  </div>
+
+  <div id="skills"  class="pages">
+    <div class="heading">
+      <h1>My Stack</h1>
+    </div>
+
+    <div class="stack-logos">
+      <img src="imgs/htmlcss.png" alt="html css  logos">
+      <img src="imgs/javascript.png" alt="js logo">
+      <img src="imgs/jquery.gif" alt="jquery logo">
+      <img src="imgs/railslogo.png" alt="ruby on rails logo">
+      <img src="imgs/sass.png" alt="sass logo">
+      <img src="imgs/ruby.png" alt="ruby logo">
+    </div>
+      <a href="#experience"><img src="imgs/down.png" alt="" class="down-arrow"></a>
+  </div>
+
+
+
+
+
+  <div id="experience" class="pages">
+    <div class="heading">
+      <h1>My Experience</h1>
+  </div>
+      <div class="schools">
+        <div class="school" id="saic">
+          <img src="imgs/saic.png" alt="saic">
+          <h2>School of the Art Institute of Chicago</h2>
+          <h5>B.F.A. in Studio, Photography and Art + Technology, 2018</h5>
+          <p>Through my experience and degree at School of the Art Institute of Chicago, I have developed my photography, design, photo editing, and lighting technique skills. I also took classes in Web Art and Sound.</p>
+        </div>
+        <div class="school" id="dbc">
+          <img src="imgs/dbc.png" alt="devbootcamp">
+          <h2>Dev Bootcamp</h2>
+          <h5>April 2017 - August 2017</h5>
+          <p>18 week web-development bootcamp, I worked on full-stack web development projects in Ruby on Rails. I learned a variety of programming languages and created a capstone project using Agile Workflow and deployed on Heroku.</p>
+        </div>
+      </div>
+        <a href="#about"><img src="imgs/down.png" alt="" class="down-arrow"></a>
+  </div>
+
+
+  <div id="about" class="pages">
+    <div class="heading">
+      <h1>About</h1>
+    </div>
+
+    <div class="headshot">
+      <img src="imgs/headshot.jpg" alt="headshot">
+    </div>
+
+    <div class="about-text">
+      <p>
+        My name is Dominique Goncalves, and I am a front-end developer. I started my love for web development in high school in a required computer science class where I met HTML and CSS. Throughout my years at art school I delved more into the world of web development and web art, teaching myself what I could. In 2017 I found Dev Bootcamp, the first coding bootcamp of its kind. What happened in those 18 weeks changed me into the developer I am today. Even though I am young and finishing my last year at School of the Art Institute of Chicago, I am a quick learner and problem solver and am ready to bring my design skills to whatever I do next.
+      </p>
+
+    </div>
+    <a href="#contact"><img src="imgs/down.png" alt="" class="down-arrow"></a>
+
+  </div>
+
+  <div id="contact" class="pages">
+    <div class="heading">
+      <h1>Contact + Links</h1>
+    </div>
+    <div class="contact-links">
+      <ul>
+        <li>dominiquefgoncalves@gmail.com</li>
+        <li><a href="http://github.com/dgonca" class="c-links">Github</a></li>
+        <li><a href="http://instagram.com/domgphotography" class="c-links">Instagram</a></li>
+        <li><a href="http://twitter.com/domgcodes" class="c-links">Twitter</a></li>
+        <li><a href="http://linkedin.com/in/dominiquegoncalves" class="c-links">Linkedin</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </div>
+    <!-- <a href="#final"><img src="imgs/down.png" alt="" class="down-arrow"></a> -->
+
   </div>
 
 
