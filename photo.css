@@ -16,11 +16,12 @@ body {
 
 
 
-#experience .school {
+#experience .school, #experience .job {
   margin-top: 250px;
   left: 38%;
   padding-right: 0;
   vertical-align: none;
+  /*border: 2px solid black;*/
 }
 
 .side-arrows {
@@ -29,6 +30,10 @@ body {
   position: absolute;
   top: 60%;
 
+}
+
+.hidden{
+  display: none;
 }
 
 #left-arrow-exp {
