@@ -1,3 +1,40 @@
 body {
+  background-color: #9FA2B2;
+}
+
+#first .jumbotron {
   background-color: #99B2DD;
+}
+
+#projects {
+  top: 100%;
+}
+
+#skills {
+  top: 200%;
+}
+
+
+
+#experience .school {
+  margin-top: 250px;
+  left: 38%;
+  padding-right: 0;
+  vertical-align: none;
+}
+
+.side-arrows {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 60%;
+
+}
+
+#left-arrow-exp {
+  left: 25%;
+}
+
+#right-arrow-exp{
+  right: 25%;
 }
