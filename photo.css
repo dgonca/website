@@ -14,32 +14,88 @@ body {
   top: 200%;
 }
 
-
-
-#experience .school, #experience .job {
-  margin-top: 250px;
-  left: 38%;
-  padding-right: 0;
-  vertical-align: none;
-  /*border: 2px solid black;*/
-}
-
-.side-arrows {
-  width: 30px;
-  height: auto;
+#experience .schools {
   position: absolute;
-  top: 60%;
+  top: 40%;
+  left: 20%;
 
 }
 
-.hidden{
+#experience .schools .s-j {
+  width: 100%;
+  height: 20%;
+  padding: 10px;
+  margin-left: 100px;
+  vertical-align: middle;
+
+}
+
+
+
+#experience .schools  .s-j .logo{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+#experience .schools .s-j h3 {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+#info-bot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.popup-wrapper {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px #aaa;
+  overflow: hidden;
+}
+
+.popup-title {
+  padding: 10px 15px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.popup-title h3 {
+  margin: 0;
+  line-height: 1.5em;
+  color: #333;
+}
+
+.popup-body {
+  padding: 10px 15px;
+  color: #555;
+}
+
+.popup-close {
+  float: right;
+  margin-top: 2px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+  border: 0;
+  background: transparent;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.popup-close:hover { color: #333; }
+
+.hide {
   display: none;
-}
-
-#left-arrow-exp {
-  left: 25%;
-}
-
-#right-arrow-exp{
-  right: 25%;
 }
